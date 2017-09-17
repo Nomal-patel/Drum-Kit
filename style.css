@@ -25,7 +25,15 @@ body {
 	padding-bottom: 15px;
 	padding-top: 10px;
 	text-align: center;
+	transition: all .1s ease;
 	width: 10rem;
+}
+
+.playing {
+	border-color: #C2629D;
+	box-shadow: 0 0 2px #C2629D;
+	text-shadow: 0 0 1px rgba(255, 255, 255, 0.8);
+	transform: scale(1.1);
 }
 
 kbd {

@@ -29,6 +29,10 @@ body {
 	width: 10rem;
 }
 
+.key:hover {
+	cursor: pointer;
+}
+
 .playing {
 	border-color: #C2629D;
 	box-shadow: 0 0 2px #C2629D;

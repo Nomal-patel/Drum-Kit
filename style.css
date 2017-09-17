@@ -5,6 +5,7 @@ body {
 	background-position: bottom center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	font-family: 'Lato', sans-serif;
 }
 
 .keys {
@@ -12,4 +13,28 @@ body {
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
+}
+
+.key {
+	background-color: rgba(0, 0, 0, 0.8);
+	border: 2px solid #F0B81F;
+	border-radius: 5px;
+	color: rgba(255, 255, 255, 0.9);
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	text-align: center;
+	width: 10rem;
+}
+
+kbd {
+	display: block;
+	font-size: 4rem;
+}
+
+.sound {
+	color: #F0B81F;
+	font-size: 11px;
+	text-transform: uppercase;
 }

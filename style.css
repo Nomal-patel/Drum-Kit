@@ -1,0 +1,8 @@
+body {
+	background-attachment: fixed;
+	background-color: #000000;
+	background-image: url('https://media.timeout.com/images/102503695/image.jpg');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

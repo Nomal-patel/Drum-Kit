@@ -17,7 +17,8 @@ body {
 
 .key {
 	background-color: rgba(0, 0, 0, 0.8);
-	border: 2px solid #F0B81F;
+	border:  2px solid transparent;
+	border-image: linear-gradient(to bottom, #d905ec, #09f115,#0d09f1) 1;
 	border-radius: 5px;
 	color: rgba(255, 255, 255, 0.9);
 	margin-left: 5px;
@@ -25,7 +26,7 @@ body {
 	padding-bottom: 15px;
 	padding-top: 10px;
 	text-align: center;
-	transition: all .1s ease;
+	transition: all .03s ease;
 	width: 10rem;
 }
 
